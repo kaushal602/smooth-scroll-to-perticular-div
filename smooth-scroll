@@ -1,0 +1,6 @@
+event.preventDefault();
+$('html, body').animate({
+   scrollTop: $("#section2").offset().top-150
+}, 800, function(){
+
+});
